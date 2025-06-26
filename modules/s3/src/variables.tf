@@ -13,6 +13,11 @@ variable "enable_versioning" {
   default = false
 }
 
+variable "block_public_access" {
+  type    = bool
+  default = true
+}
+
 variable "log_config" {
   type = object({
     enable            = bool

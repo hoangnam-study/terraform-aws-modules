@@ -1,0 +1,3 @@
+module "vm" {
+  source = "../src"
+}
